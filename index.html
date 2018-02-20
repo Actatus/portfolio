@@ -8,8 +8,9 @@
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"
   integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
   crossorigin="anonymous"/>
-
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
 </head>
+
 <body>
   <main class = "container-fluid">
     <div class = 'row contentBlock'>
@@ -19,21 +20,21 @@
         <div class = 'row'>
           <h1 id = "welcomeText">Howdy! I'm Fred, </h1>
         </div>
-        <div class = 'row workRow'>
+        <section class = 'work'>
           <h2>My Work</h2>
-            <div class = "workBlock1">
-              <div class = "workBlock1Pic">
+            <div class = "workBlock1 row">
+              <div class = "workBlock1Pic col-lg-6">
                 <img src = "img/smeggCoScreen.png"/>
               </div>
-              <div class = "workBlock1Disc">
+              <div class = "workBlock1Disc col-lg-6">
                 <h3>SmeggCo</h3>
                 <p>SmeggCo is the central hub for SmeggCo's podcasts and blog.
                   The site was built using Bootstrap, Wordpress, and a bit of
                   JQuery!</p>
               </div>
             </div>
-        </div>
-        <div class = 'row'>
+        </section>
+        <section class = 'misc altCol'>
           <h2>Doodads</h2>
             <div class = "row">
               <div class = "col-lg-4 miscBlockPic1">
@@ -46,13 +47,19 @@
                 <img src = "img/simonExample.png"/>
               </div>
             </div>
-        </div>
-        <div class = 'row'>
+        </section>
+        <section class = 'certs'>
           <h2>Certifications</h2>
-          <div class = 'certBlock1Pic'></div>
-
-          <div class = 'certBlock1Desc'></div>
-        </div>
+          <div class = 'row'>
+            <div class = 'certBlock1Pic col-lg-6'>
+              <img src = 'img/cert.png'/>
+            </div>
+            <div class = 'certBlock1Desc col-lg-6'>
+              <p>For this certification I completed over 400 hours instruction and work in a bootcamp. I learned HTML/CSS, Javascript, Bootcamp, JQuery, working with APIs,
+            basic algorithms, and how to work with JSON</p>
+            </div>
+          </div>
+        </section>
       </div>
 
       <div class = 'col-lg-2'></div>

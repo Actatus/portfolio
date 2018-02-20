@@ -1,0 +1,30 @@
+body{
+  background-color: #eee;
+}
+
+altcol {
+  background-color: #ddd;
+}
+
+body h1, body h2, body h3 {
+  font-family: Montserrat, Helvetica;
+}
+
+p {
+  font-family: Lato, Arial;
+}
+section h2{
+  text-align:center;
+}
+
+.workBlock1Pic img {
+  width: 100%;
+}
+
+.misc img {
+  width: 100%;
+}
+
+.certs img {
+  width: 100%;
+}
